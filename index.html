@@ -17,7 +17,12 @@
           <h1 class="title">
             JavaScript Camera
           </h1>
-          <video autoplay id="video"></video>
+
+          <div style="position: relative; background-color: #999; overflow: auto;">
+            <img src="rg-mask.svg" style="padding: 64px 32px; position: absolute;">
+            <video autoplay id="video" style="outline: 2px dashed orange"></video>
+          </div>
+
           <button class="button is-hidden" id="btnPlay">
             <span class="icon is-small">
               <i class="fas fa-play"></i>

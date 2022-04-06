@@ -1,7 +1,6 @@
 (function () {
   if (
-    !"mediaDevices" in navigator ||
-    !"getUserMedia" in navigator.mediaDevices
+    !"mediaDevices" in navigator || !"getUserMedia" in navigator.mediaDevices
   ) {
     alert("Camera API is not available in your browser");
     return;
